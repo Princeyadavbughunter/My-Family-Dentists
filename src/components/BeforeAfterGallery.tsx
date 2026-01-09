@@ -18,7 +18,7 @@ export default function BeforeAfterGallery({ onBookAppointment }: BeforeAfterGal
         {/* Heading */}
         <div className="text-center mb-8">
           <div className="text-[#e30217] text-sm md:text-base font-medium mb-2">
-            My Family Dentists
+            My Family Dentist
           </div>
           <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-4">
             Patient Success Stories

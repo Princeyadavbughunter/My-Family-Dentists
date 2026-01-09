@@ -51,10 +51,10 @@ export default function ImplantTypes() {
     <section className="bg-black text-white p-4 md:p-8 lg:p-12 pb-16">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-2xl md:text-4xl font-bold text-center text-[#e30217] mb-4">
-          When it comes to Dental Implants, choose <em>My Family Dentists</em>
+          When it comes to Dental Implants, choose <em>My Family Dentist</em>
         </h2>
         <p className="text-center text-gray-300 mb-8 md:text-lg max-w-3xl mx-auto">
-          At My Family Dentists, we pride ourselves on bringing together the finest dental specialists under one roof.
+          At My Family Dentist, we pride ourselves on bringing together the finest dental specialists under one roof.
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">

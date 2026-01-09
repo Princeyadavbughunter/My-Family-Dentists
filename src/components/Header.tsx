@@ -11,7 +11,7 @@ export default function Header({ onBookAppointment }: HeaderProps) {
         <div className="md:flex md:items-center md:gap-8">
           <Image
             src="/images/MFD.png"
-            alt="My Family Dentists Logo"
+            alt="My Family Dentist Logo"
             width={192}
             height={48}
             className="h-auto mx-auto mb-4 md:mb-0 md:mx-0"
@@ -22,7 +22,7 @@ export default function Header({ onBookAppointment }: HeaderProps) {
             rel="noopener noreferrer"
             className="text-sm text-gray-700 mb-4 md:mb-0 hover:text-[#e30217] transition-colors cursor-pointer block"
           >
-            📍 My Family Dentists – Dental Implant Center<br />
+            📍 My Family Dentist – Dental Implant Center<br />
             D-23, Shivalik Nagar, Near BSNL Office Chauraha,<br />
             Opposite OM Dhaba, Shiv Mandir Road, Haridwar – 249403
           </a>

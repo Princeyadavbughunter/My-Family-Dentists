@@ -10,7 +10,7 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
     <section className="p-4 md:p-8 lg:p-12 max-w-7xl mx-auto">
       <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-center mb-6 leading-tight">
         Transform Your Smile With<br />
-        <span className="text-[#e30217]">My Family Dentists</span>
+        <span className="text-[#e30217]">My Family Dentist</span>
       </h1>
 
       <div className="md:flex md:items-center md:gap-8 md:mb-12">
@@ -18,7 +18,7 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
           <div className="relative rounded-lg h-48 md:h-[400px] mb-6 md:mb-0 md:flex-1 overflow-hidden shadow-lg bg-black">
             <iframe
               className="w-full h-full object-cover rounded-lg"
-              src="https://www.youtube.com/embed/PB7x3E181_E?si=QxQ78f9wBYhpDnhx"
+              src="https://www.youtube.com/embed/vzjZmpUGzds?si=uxeuloJfPFcabjDU"
               title="Smile Dental Hospital Video"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
@@ -36,14 +36,14 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
         {/* Special Offer Section */}
         <div className="bg-gradient-to-r from-black to-gray-800 text-white p-6 rounded-xl text-center mb-6 md:mb-0 md:flex-1">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
-            Special Offers
-            <ul className="text-lg md:text-xl text-left list-disc pl-6 mt-4 space-y-2">
-              <li>Dental Implants starting at ₹20,000</li>
-              <li>Free Zirconia Crown worth ₹10,000</li>
-              <li>Lifetime warranty on Implants</li>
-              <li>15-year warranty on Crowns</li>
-            </ul>
+            Implant Worth ₹30,000 Now at Just ₹20,000!
           </h2>
+          <ul className="text-lg md:text-xl text-left list-none mt-4 space-y-2">
+            <li>🎉 Save ₹10,000 instantly</li>
+            <li>🎁 FREE Zirconia Crown worth ₹10,000</li>
+            <li>🛡️ Lifetime Warranty on Dental Implants</li>
+            <li>⏳ 15-Year Warranty on Crowns</li>
+          </ul>
           <button
             onClick={onBookAppointment}
             className="bg-brandPrimary text-white px-8 py-4 rounded-xl text-xl font-bold shadow-lg hover:opacity-90 transition-colors pulse-element w-full md:w-auto"
@@ -69,7 +69,7 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
       <div className="mb-8">
         <h3 className="text-xl md:text-3xl font-bold text-center text-gray-900 mb-6">
           Why choose <span className="text-[rgb(55,81,82)]
-">My Family Dentists?</span>
+">My Family Dentist?</span>
         </h3>
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6 mb-6">

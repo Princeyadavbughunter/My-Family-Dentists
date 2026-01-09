@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="text-center mb-6 md:mb-12">
           <Image
             src="/images/MFD.png"
-            alt="Smile Dental Hospital"
+            alt="My Family Dentist"
             width={192}
             height={48}
             className="mx-auto mb-4 h-auto"
@@ -20,8 +20,9 @@ export default function Footer() {
             <h3 className="font-bold text-[#e30217] mb-2 md:text-lg">Contact Us</h3>
             <a href="tel:+919415007106" className="block text-[#e30217] font-bold md:text-lg hover:text-black transition-colors">+91 9415007106</a>
             <a href="tel:+918279469499" className="block text-[#e30217] font-bold md:text-lg hover:text-black transition-colors">+91 8279469499</a>
+            <a href="mailto:myfamilydentists@gmail.com" className="block text-[#e30217] font-bold md:text-lg hover:text-black transition-colors">E-Mail Id. : myfamilydentists@gmail.com</a>
 
-            <p className="text-gray-700">https://www.myfamilydentists.org.in</p>
+            <p className="text-gray-700">https://www.myfamilydentist.org.in</p>
           </div>
 
           <div>
@@ -44,7 +45,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="text-gray-700 font-bold hover:text-[#e30217] transition-colors cursor-pointer block"
             >
-              📍 My Family Dentists<br />
+              📍 My Family Dentist<br />
               D-23, Shivalik Nagar, Near BSNL Office Chauraha,<br />
               Opposite OM Dhaba, Shiv Mandir Road, Haridwar – 249403
             </a>
@@ -62,7 +63,7 @@ export default function Footer() {
             allowFullScreen={true}
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="My Family Dentists Location - Haridwar"
+            title="My Family Dentist Location - Haridwar"
           ></iframe>
         </div>
       </div>

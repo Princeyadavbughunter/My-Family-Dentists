@@ -8,32 +8,32 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "My Family Dentists – Dental Implant Center | Best Dentist in Haridwar",
+  title: "My Family Dentist – Dental Implant Center | Best Dentist in Haridwar",
   description: "Dr. Shikha Tripathi - MDS Prosthodontist & Implantologist with 25+ years experience. Advanced dental implants, CAD/CAM lab, and laser dentistry in Haridwar. Call: 9415007106",
-  keywords: "dentist Haridwar, dental clinic Haridwar, Dr. Shikha Tripathi, dental implants, My Family Dentists, CAD/CAM, laser dentistry, root canal",
+  keywords: "dentist Haridwar, dental clinic Haridwar, Dr. Shikha Tripathi, dental implants, My Family Dentist, CAD/CAM, laser dentistry, root canal",
   authors: [{ name: "Dr. Shikha Tripathi" }],
-  creator: "My Family Dentists",
-  publisher: "My Family Dentists",
+  creator: "My Family Dentist",
+  publisher: "My Family Dentist",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://MyFamilyDentists.com/'),
+  metadataBase: new URL('https://MyFamilyDentist.com/'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: "My Family Dentists – Dental Implant Center | Haridwar",
-    description: "Led by Dr. Shikha Tripathi (MDS), My Family Dentists offers advanced dental care including implants, CAD/CAM, and laser treatments.",
-    url: 'https://MyFamilyDentists.com/',
-    siteName: "My Family Dentists",
+    title: "My Family Dentist – Dental Implant Center | Haridwar",
+    description: "Led by Dr. Shikha Tripathi (MDS), My Family Dentist offers advanced dental care including implants, CAD/CAM, and laser treatments.",
+    url: 'https://MyFamilyDentist.com/',
+    siteName: "My Family Dentist",
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: "My Family Dentists",
+        alt: "My Family Dentist",
       },
     ],
     locale: 'en_IN',
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "My Family Dentists – Dental Implant Center",
+    title: "My Family Dentist – Dental Implant Center",
     description: "Advanced dental care with 25+ years experience in Haridwar. Dr. Shikha Tripathi.",
     images: ['/og-image.jpg'],
   },
