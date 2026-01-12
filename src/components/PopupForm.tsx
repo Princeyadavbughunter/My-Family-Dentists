@@ -2,6 +2,7 @@
 
 import { useRouter } from 'next/navigation';
 import React from 'react';
+import { Gift } from 'lucide-react';
 
 interface PopupFormProps {
   isOpen: boolean;
@@ -86,12 +87,24 @@ export default function PopupForm({ isOpen, onClose, minutes, seconds }: PopupFo
         </div>
 
         {/* Countdown */}
-        <div className="bg-black text-white p-3 md:p-4 rounded-lg mb-4 text-center">
-          <p className="text-sm md:text-base mb-1">⏰ This offer expires in:</p>
-          <div className="text-2xl md:text-3xl font-bold">
-            {minutes.toString().padStart(2, '0')}:{seconds.toString().padStart(2, '0')}
+        {/* Surprise Box */}
+        <div className="bg-gradient-to-r from-yellow-100 to-yellow-50 border-2 border-yellow-400 p-4 rounded-xl mb-6 text-center shadow-sm relative overflow-hidden group hover:shadow-md transition-all">
+          <div className="absolute top-0 right-0 -mt-2 -mr-2 w-12 h-12 bg-yellow-400 rotate-45 transform opacity-20"></div>
+
+          <div className="flex flex-col items-center justify-center gap-2">
+            <div className="bg-white p-3 rounded-full shadow-inner ring-4 ring-yellow-200 animate-bounce">
+              <Gift className="w-8 h-8 text-yellow-600" />
+            </div>
+
+            <div>
+              <h3 className="text-gray-800 font-bold text-lg leading-tight mb-1">
+                Surprise Offer Unlocked!
+              </h3>
+              <p className="text-gray-600 text-sm">
+                Book now to reveal your <span className="font-semibold text-yellow-700">exclusive dental perk</span>
+              </p>
+            </div>
           </div>
-          <p className="text-xs md:text-sm mt-1">Book within 20 minutes</p>
         </div>
 
         {/* FORM */}

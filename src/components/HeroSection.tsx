@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Monitor, Scan, Printer, Microscope, Zap } from "lucide-react";
+
 
 interface HeroSectionProps {
   onBookAppointment: () => void;
@@ -74,14 +74,21 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6 mb-6">
           {[
-            { icon: <Monitor className="w-12 h-12 text-brandPrimary mx-auto mb-2" />, title: "In-house Digital Lab", desc: "CAD/CAM Technology" },
-            { icon: <Scan className="w-12 h-12 text-brandPrimary mx-auto mb-2" />, title: "In-house OPG", desc: "Full Mouth & Digital X-rays" },
-            { icon: <Printer className="w-12 h-12 text-brandPrimary mx-auto mb-2" />, title: "3D Printing", desc: "Aligner Manufacturing Unit" },
-            { icon: <Microscope className="w-12 h-12 text-brandPrimary mx-auto mb-2" />, title: "Microscopic RCT", desc: "Advanced magnification" },
-            { icon: <Zap className="w-12 h-12 text-brandPrimary mx-auto mb-2" />, title: "Dental Laser", desc: "Advanced Laser Technology" }
+            { img: "/abcd/1.jpeg", title: "In-house Digital Lab", desc: "CAD/CAM Technology" },
+            { img: "/abcd/2.jpeg", title: "In-house OPG", desc: "Full Mouth & Digital X-rays" },
+            { img: "/abcd/3.jpeg", title: "3D Printing", desc: "Aligner Manufacturing Unit" },
+            { img: "/abcd/4.jpeg", title: "Microscopic RCT", desc: "Advanced magnification" },
+            { img: "/abcd/5.jpeg", title: "Dental Laser", desc: "Advanced Laser Technology" }
           ].map((usp, index) => (
-            <div key={index} className="text-center bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow md:p-6 border border-gray-100">
-              {usp.icon}
+            <div key={index} className="text-center bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow md:p-6 border border-gray-100 flex flex-col items-center">
+              <div className="relative w-24 h-24 mb-2">
+                <Image
+                  src={usp.img}
+                  alt={usp.title}
+                  fill
+                  className="object-contain"
+                />
+              </div>
               <h4 className="font-bold text-sm md:text-base text-gray-900 mb-1">{usp.title}</h4>
               <p className="text-xs md:text-sm text-gray-600">{usp.desc}</p>
             </div>
